@@ -7,6 +7,14 @@
     .title-hover .section-title p {
       margin-left: 0; }
 
+.slick-box-title {
+  padding-bottom: 30px; }
+  .slick-box-title .slick-slider .slick-track,
+  .slick-box-title .slick-slider .slick-list {
+    display: flex; }
+  .slick-box-title .slick-dots {
+    bottom: -75px; }
+
 .bg-light .section-title {
   text-align: center;
   padding: 5rem 0; }
@@ -14,7 +22,8 @@
 .img-hv-content {
   margin: 1.5rem 1.5rem 5rem;
   text-align: center;
-  background-color: white; }
+  background-color: white;
+  height: 100%; }
   .img-hv-content .img-team {
     padding: 3rem 3.5rem 3rem;
     position: relative; }

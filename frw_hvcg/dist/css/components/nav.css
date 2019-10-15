@@ -5,12 +5,11 @@
 
 .menu-nav {
   position: absolute;
-  width: 100%;
-  padding: 1.5rem 0; }
+  width: 100%; }
 
 .ps-fix {
   position: fixed !important;
-  background: #ffffff;
+  background: #fff;
   width: 100%;
   transition: all .5s ease;
   padding: .5rem 0 !important; }
@@ -28,8 +27,7 @@
     .navsticky .container .navbar {
       display: flex;
       align-items: center;
-      justify-content: flex-start;
-      padding: .5rem 0rem; }
+      justify-content: flex-start; }
       .navsticky .container .navbar .nav-brand {
         display: inline-block;
         padding: 0.5rem 0;
@@ -40,7 +38,9 @@
         .navsticky .container .navbar .nav-brand img {
           vertical-align: middle;
           max-width: 150px;
-          height: auto; }
+          height: auto;
+          display: block;
+          max-height: 70px; }
       .navsticky .container .navbar .nav-menu {
         z-index: 1000;
         font-size: 1.4rem;

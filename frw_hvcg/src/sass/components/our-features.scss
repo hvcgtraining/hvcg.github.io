@@ -7,16 +7,19 @@
         }
         .wrapper-our-features{
             .wrapper-box-our-features{
+                margin-bottom: 30px;
                 .wrapper-inner{
                     padding: 0 1.5rem;
+                    height: 100%;
                     .box-our-features{
+                        height: 100%;
                         .cs-box-our-features{
                             border: none;
                             box-shadow: none;
                             position: relative;
                             background: #ffffff;
                             padding: 3rem 2rem 3rem 9.5rem;
-                            margin-bottom: 30px;
+                            height: 100%;
                             border-radius: 5px;
                             -webkit-transition: 0.5s;
                             transition: 0.5s;

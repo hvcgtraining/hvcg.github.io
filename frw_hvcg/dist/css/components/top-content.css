@@ -31,15 +31,20 @@
       position: relative;
       z-index: 1;
       border-radius: .5rem;
-      margin: 3rem 0; }
+      height: 100%; }
+      .top-content .wrapper-topcontent .cs-box01:hover p,
+      .top-content .wrapper-topcontent .cs-box01:hover h3 {
+        color: white; }
       .top-content .wrapper-topcontent .cs-box01 h3 {
         font-size: 1.8rem;
         margin-top: 2.5rem;
         margin-bottom: 1.5rem;
-        -webkit-transition: 0.5s;
-        transition: 0.5s; }
+        -webkit-transition: 0.3s;
+        transition: 0.3s; }
       .top-content .wrapper-topcontent .cs-box01 p {
-        font-size: 1.4rem; }
+        font-size: 1.4rem;
+        -webkit-transition: 0.3s;
+        transition: 0.3s; }
       .top-content .wrapper-topcontent .cs-box01 .icon {
         display: inline-block;
         text-align: center;

@@ -35,16 +35,22 @@
             position: relative;
             z-index: 1;
             border-radius: .5rem;
-            margin: 3rem 0;
+            height: 100%;
+            &:hover p,
+            &:hover h3{
+                color: white;
+            }
             h3{
                 font-size: 1.8rem;
                 margin-top: 2.5rem;
                 margin-bottom: 1.5rem;
-                -webkit-transition: 0.5s;
-                transition: 0.5s;
+                -webkit-transition: 0.3s;
+                transition: 0.3s;
             }
             p{
                 font-size: 1.4rem;
+                -webkit-transition: 0.3s;
+                transition: 0.3s;
             }
             .icon{
                 display: inline-block;
